@@ -55,6 +55,13 @@ footer {
     text-align: center;
     color: #FFFFFF;
 }
+.Problem {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #EEEEEE;
+}
+
+
 .all_together {
     padding-top: 128px;
     padding-bottom: 128px;
