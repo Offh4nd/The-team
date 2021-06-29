@@ -59,9 +59,17 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
     background: #EEEEEE;
+    }
+.Problem_txt {
+    /* The problem */
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #007765;
 }
-
-
 .all_together {
     padding-top: 128px;
     padding-bottom: 128px;
