@@ -1,92 +1,124 @@
 .Piped_Piper_page {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background: #007765;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #007765;
 }
 .links {
-    float: right;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    color: #FFFFFF;
+  float: right;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
 }
 footer {
-    padding-top: 48px;
-    padding-bottom: 64px;
-    background: #333333;
-        
+  padding-top: 48px;
+  padding-bottom: 64px;
+  background: #333333;
 }
 .footer-txt {
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    color: #FFFFFF;
-    
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
 }
 .container_content {
-    /* for all blocks */
-    max-width: 1219px;
-    padding-left: 55px;
-    padding-right: 55px;
-    box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
+  /* for all blocks */
+  max-width: 1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container_Net {
-    padding-top: 160px;
-    padding-bottom: 160px;
-    background-image: url(img/piperNet_Is_Here.png);
-    background-position: center center;
-    background-size: cover;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  background-image: url(img/piperNet_Is_Here.png);
+  background-position: center center;
+  background-size: cover;
 }
 .Net_Is_txt {
-    /* PiperNet Is Here */
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 72px;
-    line-height: 84px;
-    text-align: center;
-    color: #FFFFFF;
+  /* PiperNet Is Here */
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  color: #ffffff;
 }
 .Problem {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background: #EEEEEE;
-    }
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #eeeeee;
+}
 .Problem_txt {
-    /* The problem */
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 72px;
-    line-height: 84px;
-    text-align: center;
-    color: #007765;
+  /* The problem */
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  color: #007765;
 }
 .all_together {
-    padding-top: 128px;
-    padding-bottom: 128px;
-    background-image: url(img/All_together.png);
-    background-position: center center;
-    background-size: cover;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url(img/All_together.png);
+  background-position: center center;
+  background-size: cover;
 }
 .all_together_txt {
-    font-family: Roboto, sans-serif;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 56px;
-    text-align: center;
-    color: #FFFFFF;
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #ffffff;
 }
 .Problem_par_txt {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #000000;
+}
+.Introducing_PiedPiperCoin {
+  /*Introducing PiedPiperCoin*/
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  color: #007765;
+}
+.PPC_logo {
+  width: 115px;
+  height: 115px;
+  display: flex;
+}
+.Introducing_PiedPiperCoin_txt_p1 {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  display: flex;
+  color: #000000;
+}
+.Introducing_PiedPiperCoin_txt_p2 {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -94,14 +126,4 @@ footer {
     line-height: 37px;
     text-align: center;
     color: #000000;
-}
-.Introducing_PiedPiperCoin {
-    /*Introducing PiedPiperCoin*/
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 72px;
-    line-height: 84px;
-    text-align: center;
-    color: #007765;
-}
+  }
