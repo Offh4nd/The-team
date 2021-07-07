@@ -1,9 +1,27 @@
-.Piped_Piper_page {
-  padding-top: 20px;
-  padding-bottom: 20px;
+/* header style start*/
+
+.header {
+  position: sticky;
+  top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background: #007765;
+  line-height: 28px;
 }
-.links {
+.header_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  list-style-type: none; /* Убираем маркеры у списка */
+ }
+ li:before {
+  content: "|";
+ }
+
+ .link {
   float: right;
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -12,21 +30,18 @@
   line-height: 28px;
   text-align: center;
   color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
 }
-footer {
-  padding-top: 48px;
-  padding-bottom: 64px;
-  background: #333333;
+.header_item {
+  margin-right: 23px;
 }
-.footer-txt {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-  color: #ffffff;
+.header_item:last-child{
+  margin-right: 0px;
 }
+/* header style end*/
+
 .container_content {
   /* for all blocks */
   max-width: 1219px;
@@ -135,11 +150,26 @@ footer {
     font-weight: 500;
     font-size: 64px;
     line-height: 75px;
-    /* identical to box height */
     text-align: center;
     color: #007765;
     background: #eeeeee;
 }
 .faces {
-    display: inline-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  padding-top: 48px;
+  padding-bottom: 64px;
+  background: #333333;
+}
+.footer-txt {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
 }
