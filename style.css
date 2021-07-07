@@ -102,6 +102,7 @@ footer {
   line-height: 84px;
   text-align: center;
   color: #007765;
+  background: #ffffff;
 }
 .PPC_logo {
   width: 115px;
@@ -127,3 +128,18 @@ footer {
     text-align: center;
     color: #000000;
   }
+.The_team {
+    /*The Team*/
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    text-align: center;
+    color: #007765;
+    background: #eeeeee;
+}
+.faces {
+    display: inline-flex;
+}
